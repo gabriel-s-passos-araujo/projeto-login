@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
@@ -17,12 +18,15 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="cadastro.php" method="post"></form>
                 <p>
-                    <label for="iuser">Usuário: </label>
+                    
+                    <label for="iuser"class="material-symbols-outlined">person</label>
                     <input type="email" name="user" id="iuser" autocomplete="email" required placeholder="Insira seu Email">
                     
                 </p>
                 <p>
-                    <label for="isen">Senha: </label>
+                    <label for="isen"  class="material-symbols-outlined">
+                        vpn_key
+                    </label>
                     <input type="password" name="sen" id="isen" required autocomplete="off" placeholder="Insira sua senha" minlength="8">
                 </p>
                 <p>
