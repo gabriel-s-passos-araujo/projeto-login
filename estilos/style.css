@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+PALETA DE CORES
+
+Branco
+Preto
+Verde : #49a09d
+roxo: #5f2c82
+*/
+
+:root{
+    --corV: #49a09d;
+    --corR: #5f2c82;
+    --corB: #ffffff;
+    --corP: #000000;
+
+}
+
