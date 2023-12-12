@@ -17,24 +17,32 @@
            <div id="formulario">
                 <h1>Login</h1>
                 <p id="bemv">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="cadastro.php" method="post"></form>
+                <form action="cadastro.php" method="post" autocomplete="on" ></form>
                 <p>
                     
-                    <label for="iuser"class="material-symbols-outlined">person</label>
-                    <input type="email" name="user" id="iuser" autocomplete="email" required placeholder="Insira seu Email">
+                    <div class="campo">
+                        <label for="iuser"class="material-symbols-outlined">person</label>
+                        <input type="email" name="user" id="iuser" autocomplete="email" required placeholder="Insira seu Email" maxlength="40">
+                    </div>
                     
                 </p>
                 <p>
-                    <label for="isen"  class="material-symbols-outlined">
-                        vpn_key
-                    </label>
-                    <input type="password" name="sen" id="isen" required autocomplete="off" placeholder="Insira sua senha" minlength="8">
+                    <div class="campo">
+                        <label for="isen"  class="material-symbols-outlined">
+                            vpn_key
+                        </label>
+                        <input type="password" name="sen" id="isen" required autocomplete="current-password" placeholder="Insira sua senha" minlength="8" maxlength="20">
+                    </div>
                 </p>
                 <p>
                     <input type="submit" value="Entrar"><br>
-                    <a href="esqueci.html" class="botao">Esqueci a senha</a>
+                    <a href="esqueci.html" class="botao">
+                        Esqueci a senha <i class="material-symbols-outlined">mail</i>
+                    </a>
                 </p>
            </div>
+          
+            </span>
         </section>
        
     </main>

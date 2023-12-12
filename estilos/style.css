@@ -39,9 +39,7 @@ main{
     border-radius: 20px;
     display: block;
 }
-h1{
-    text-align: center;
-}
+
 section#login{
     position: absolute;
     top: 50%;
@@ -66,14 +64,37 @@ section#login > div#imagem{
     display: block;
 }
 
-
-
-
-section#login > div#formulario{
-    display: block;
-    padding: 10px;
-
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+div#formulario > p{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.campo{
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    margin: 20px;
+    background-color: #5F2C82;
+    border-radius: 10px;
+    
+}
+
+div.campo > input{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-top: 2px;
+    background-color: #94CFCD;
+}
+
+
+
+
 
 
 
